@@ -1,0 +1,95 @@
+<!--pages/c.wxml-->
+<view class="scroll-view" >
+         <view class="demo1 {{ current == 0 ? 'hover': ''}}" data-current="0" bindtap="click1">活动背景</view>
+          <view class="demo2 {{ current == 1 ? 'hover': ''}}"   data-current="1" bindtap="click1">爱心接力项目</view>
+          <view class="demo3 {{ current == 2 ? 'hover': ''}}"  data-current="2" bindtap="click1">爱心资产</view>
+     </view>
+     <swiper style="height:{{winHeight-146}}rpx" current="{{current}}" indicator-dots="{{indicatorDots}}"  duration="500">
+          <swiper-item >
+            <scroll-view class="scroll-view_H" scroll-y="true"  style="height:{{winHeight-146}}rpx;">
+                <view class="lindao" wx:for="{{2}}" wx:key="index">
+                    <view >
+                        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1528640182,165633546&fm=26&gp=0.jpg"></image>
+                        <view>
+                        <text class="zii">国家军委主席习近平亲笔信</text>
+                        </view>
+                    </view>
+               </view>
+               <view class="list-all" >
+               <view class="lists" wx:for="{{6}}" wx:key="index">
+                  <view class="list">
+                     <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=295879854,767098146&fm=26&gp=0.jpg"></image>
+                  </view>
+                  <view class="ziti">
+                    <view class="ti">
+                     <text>亲爱的，你好</text>
+                     <text>爱心接力主题曲，把闪光的平凡写成温暖的歌</text>
+                    </view>
+                     <view class="xing">
+                        <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599934657211&di=4432418c4169f9668900df30be124896&imgtype=0&src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20190624%2F15%2F1561361619-zjtJTaLcpO.jpg"></image>
+                        <text>4223</text>
+                     </view>
+                  </view>
+               </view>
+               </view>
+           </scroll-view>
+          </swiper-item>
+          <swiper-item>
+            <scroll-view class="scroll-view_H" scroll-y="true"   style="height:{{winHeight-146}}rpx;">
+              <view class="second">
+                <view class="love">
+                    <view>
+                      资生堂爱心接力Relay of Love项目再出发
+                    </view>
+                    <view>
+                      <text>爱心大巴已陆续“前往七城”,为有爱的你送去“美丽”守护</text>
+                    </view>
+               </view>
+               <view class="bb">
+                    <view class="zhan">
+                      <text>当前站点</text>
+                      <text>下一站</text>
+                      <text>计划站点</text>
+                   </view>
+                   <view class="city">
+                     <text>上海</text>
+                   </view>
+               </view>
+               <view class="citys" >
+                <view class="city1" wx:for="{{6}}" wx:for="index">
+                     <text>上海</text>
+                   </view>
+               </view>
+               <view class="body-view">
+                <slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle"/>
+            </view>
+               </view>
+               <view class="gui" wx:for="{{4}}" wx:index="index">
+               <view class="guii">
+                 <text class="o">贵阳站</text>
+                 <view>
+                   <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=295879854,767098146&fm=26&gp=0.jpg"></image>
+                   <view>
+                     <view class="h">
+                       <text>爱心大巴</text>
+                     </view>
+                     <view class="u">
+                       <text>资生堂爱心大巴前往住城贵阳，为山区教师送去美好守护</text>
+                     </view>
+                   </view>
+                 </view>
+               </view>
+            </view>
+           </scroll-view>
+          </swiper-item>
+          <swiper-item >
+            <scroll-view class="scroll-view_H" scroll-y="true"   style="height:{{winHeight-146}}rpx;">
+                <view class="image2">
+                  <view class="image3" wx:for="{{10}}" wx:index="index">
+                  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599943928378&di=d28e29bd57451d88d0ae6ec2871b9cf8&imgtype=0&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2072291458%2C274656843%26fm%3D214%26gp%3D0.jpg"></image>
+                  <text class="yue">7月</text>
+                  </view>
+               </view>
+             </scroll-view>
+          </swiper-item>
+      </swiper>

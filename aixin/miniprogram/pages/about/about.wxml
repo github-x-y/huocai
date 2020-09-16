@@ -1,0 +1,36 @@
+<view class="container">
+   <view class="image">
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <view class="title">
+        <text>爱心助力达人</text>
+        <text>{{userInfo.nickName}}</text>
+        <text>累计爱心值 40</text>
+      </view>
+      <view class="lei">
+         <navigator class="na">排行榜>>></navigator>
+         <button size="mini">当前礼盒已领完</button>
+      </view>
+   </view>
+   <view class="basi">
+     <view class="aix">
+        <text>当月爱心值</text>
+        <text>40</text>
+     </view>
+     <view class="jiaos">
+          <text>教师节当日爱心值</text>
+          <text>0</text>
+     </view>
+   </view>
+   <view>
+     <button type="warn">查看我的巴士</button>
+     </view>
+     <view>
+        <view class="li" wx:for="{{4}}" wx:index="index">
+          <text>爱心礼盒规则</text>
+          <text>>></text>
+        </view>
+     </view>
+     <view class="gua">
+       <text>关注资生堂官方微信可获得更多爱心值</text>
+     </view>
+</view>

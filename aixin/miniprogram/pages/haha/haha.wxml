@@ -1,0 +1,49 @@
+<!--miniprogram/pages/haha/haha.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" style="height:{{winHeight-100}}rpx;">
+    <view class="film-title">
+        <text>爱心资讯</text>
+        <view class="d">
+           <view bindtap="click3">显示全部</view>
+        </view>
+      </view>
+      <view calss="aixi">
+      <swiper class="swiper" current="1" indicator-dots="ture"
+        autoplay="autoplay" interval="3000" duration="500" indicator-color="rgba(29, 2, 2, 0.719)" circular="ture" indicator-active-color="#3619d6">
+        <!-- <block wx:for="{{3}}" wx:key="index"> -->
+          <swiper-item>
+            <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=295879854,767098146&fm=26&gp=0.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3694946966,3815896655&fm=26&gp=0.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599926277307&di=c8f9ad42ecf55edaea6f3acb8ed7185c&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F18%2F04%2F09%2F95c95dba7aa54d9e0b7d3411cc76f5a2.jpg%2521r650"></image>
+          </swiper-item>
+        <!-- </block> -->
+      </swiper>
+    </view>
+    <view class="ai">
+       <!-- <view class="ai2">
+         <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599927265131&di=0cf9e94673c145442a8d1b988f57ae92&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F20%2F16%2F02%2F2856d29a77cde95.jpg%2521%2Ffwfh%2F804x804%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue"></image>
+        </view> -->
+        <swiper class="xixi" circular="true"
+        autoplay="true" interval="3000" duration="500">
+        <!-- <block wx:for="{{3}}" wx:key="index"> -->
+          <swiper-item>
+            <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599928952956&di=ee95b1ce8e35136890ec41b6ffa9fc51&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fguilin_house%2Fpics%2Fhv1%2F246%2F167%2F144%2F9406431.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1172584646,872200904&fm=26&gp=0.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599929036329&di=6d992021773cee2a0ff24fc444928dfd&imgtype=0&src=http%3A%2F%2Fwww.hzzk.gov.cn%2Fdqb%2Fssyw%2F201802%2F7141050c69fa453da810ac46289d1ed8%2Fimages%2F57f7b1b03b184595b8307f66f2d15073.png"></image>
+          </swiper-item>
+        <!-- </block> -->
+      </swiper>
+      <view>
+        <button type="primary" >查看我的大巴</button>
+      </view>
+    </view>
+    </scroll-view>
+</view>

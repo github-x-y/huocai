@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="image" style="height:{{winHeight}}rpx">
+     <image  src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=295879854,767098146&fm=26&gp=0.jpg"></image>
+     <button type="primary"  open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">开启旅行</button>
+  </view>
+</view>

@@ -1,0 +1,82 @@
+/* miniprogram/pages/about/about.wxss */
+.image{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 30rpx;
+  color: rgb(146, 42, 42);
+}
+.image image{
+  border-radius: 50%;
+  width: 150rpx;
+  height: 150rpx;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 50rpx;
+}
+.lei{
+  position: relative;
+  top: 20rpx;
+}
+.title text:nth-child(2) {
+  font-size: large;
+  font-weight: 600;
+  color: black;
+}
+.basi{
+  width: 100%;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599976594653&di=276e468138b56c02f84d8a98899d9174&imgtype=0&src=http%3A%2F%2Fpic.616pic.com%2Fbg_w1180%2F00%2F12%2F73%2FfLz9HmcDz2.jpg);
+  display: flex;
+  flex-direction: row;
+  height: 600rpx;
+  color: rgb(146, 42, 42);
+}
+.aix{
+  width: 200rpx;
+  height: 200rpx;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599976594651&di=f4325fa190464134f0610c4f5ae75156&imgtype=0&src=http%3A%2F%2Fpic.616pic.com%2Fbg_w1180%2F00%2F00%2F20%2Fjl9suhuVwg.jpg);
+  position: relative;
+  left: 200rpx;
+  top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aix text:last-child{
+  font-size: x-large;
+}
+.jiaos{
+  width: 200rpx;
+  height: 200rpx;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599976594651&di=f4325fa190464134f0610c4f5ae75156&imgtype=0&src=http%3A%2F%2Fpic.616pic.com%2Fbg_w1180%2F00%2F00%2F20%2Fjl9suhuVwg.jpg);
+  position: relative;
+  left: 300rpx;
+  top: 200rpx;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jiaos text:last-child{
+  font-size: x-large;
+}
+button{
+  border-radius: 50px;
+}
+.li{
+  background-color: brown;
+  margin: 20rpx 20rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rpx;
+  border-radius: 5%;
+}
+.gua{
+  text-align: center;
+  font-size: small;
+}
